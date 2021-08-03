@@ -17,14 +17,14 @@
 
 @media screen and (max-width: 1024px){
   .places__place-paragraph{
-    max-width: 456px;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 768px){
   .places__place-paragraph{
-    max-width: 352px;
     font-size: 16px;
+    max-width: 100%;
   }
 }
 
@@ -32,8 +32,8 @@
   .places__place-paragraph{
     font-size: 16px;
     line-height: 163%;
-    max-width: 288px;
-    margin: 0 auto 25px auto;
+    max-width: 100%;
+    margin: 0 auto 25px;
   }
   .places__place-paragraph:last-of-type{
     margin: 0 auto;
