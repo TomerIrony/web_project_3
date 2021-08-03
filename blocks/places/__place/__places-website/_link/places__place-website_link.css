@@ -1,4 +1,4 @@
-.places__place_website-link{
+.places__place-website_link{
   padding: 0;
   box-sizing: border-box;
   font-family: Inter;
@@ -10,6 +10,6 @@
   color: #FFFFFF;
 }
 
-.places__place_website-link:hover{
+.places__place-website_link:hover{
   opacity: .8;
 }
