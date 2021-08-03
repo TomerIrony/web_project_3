@@ -1,5 +1,5 @@
 .intro__title{
-  width: 690px;
+  max-width: 690px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,15 +13,17 @@
 
 @media screen and (max-width: 768px){
   .intro__title{
-    width: 720px;
-    height: 116px;
+    width: 93.75vw;
+    max-width: 720px;
+    max-height: 116px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 320px){
   .intro__title{
-    width: 288px;
-    height: 105x;
+    max-width: 288px;
+    max-height: 105x;
     font-size: 32px;
     line-height: 35px;
   }

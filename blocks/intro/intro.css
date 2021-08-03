@@ -1,22 +1,20 @@
 .intro{
   width: 690px;
-  margin: 92px 442px 0 148px;
+  margin: 92px 34.53% 0 11.56%;
   padding: 0;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px){
   .intro{
-    width: 720px;
-    height: 543px;
+    max-width: 720px;
     margin: 88px auto 0;
   }
 }
 
 @media screen and (max-width: 320px){
   .intro{
-    width: 288px;
-    height: 841px;
+    max-width: 288px;
     margin: 64px auto 0;
   }
 }
