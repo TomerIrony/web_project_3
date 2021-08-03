@@ -1,0 +1,29 @@
+.footer__sites_link{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 18px 0 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer__sites_link:last-of-type{
+  margin: 0;
+}
+
+.footer__sites_link:hover{
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px){
+  .footer__sites_link{
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    flex-direction: column;
+  }
+}

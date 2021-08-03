@@ -1,0 +1,15 @@
+.places__place__website__link{
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.places__place__website__link:hover{
+  opacity: .8;
+}

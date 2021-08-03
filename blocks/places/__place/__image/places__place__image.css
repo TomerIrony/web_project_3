@@ -1,0 +1,28 @@
+.places__place__image{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 460px;
+  max-height: 460px;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 1024px){
+  .places__place__image{
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .places__place__image{
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .places__place__image{
+    grid-row: 3 / 4;
+    grid-column: 0;
+    max-width: 320px;
+  }
+}
