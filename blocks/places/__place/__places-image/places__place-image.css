@@ -15,12 +15,7 @@
 @media screen and (max-width: 768px){
   .places__place-image{
     max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px){
-  .places__place-image{
-    max-width: 173px;
+    align-content: center;
   }
 }
 
