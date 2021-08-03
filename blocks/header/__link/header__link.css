@@ -1,20 +1,25 @@
-.header__link_es{
+.header__link{
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  text-decoration: none;
   text-align: right;
+  text-decoration: none;
   color: #FFFFFF;
+  margin-right: 18px;
 }
 
-.header__link_es:focus{
+.header__link:focus{
   text-decoration-line: underline;
 }
 
+.header__link:last-of-type{
+  margin: 0;
+}
+
 @media screen and (max-width: 320px){
-  .header__link_es{
+  .header__link{
     width: 22px;
     height: 20px;
     font-size: 18px;

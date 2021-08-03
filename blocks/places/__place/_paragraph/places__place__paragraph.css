@@ -1,4 +1,4 @@
-.places__place__paragraph{
+.places__place_paragraph{
   max-width: 484px;
   margin: 0 0 25px 0;
   padding: 0;
@@ -11,31 +11,31 @@
   color: #FFFFFF;
 }
 
-.places__place__paragraph:last-of-type{
+.places__place_paragraph:last-of-type{
   margin: 0;
 }
 
 @media screen and (max-width: 1024px){
-  .places__place__paragraph{
+  .places__place_paragraph{
     max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px){
-  .places__place__paragraph{
+  .places__place_paragraph{
     max-width: 352px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 320px){
-  .places__place__paragraph{
+  .places__place_paragraph{
     font-size: 16px;
     line-height: 163%;
     max-width: 288px;
     margin: 0 auto 25px auto;
   }
-  .places__place__paragraph:last-of-type{
+  .places__place_paragraph:last-of-type{
     margin: 0 auto;
   }
 }
