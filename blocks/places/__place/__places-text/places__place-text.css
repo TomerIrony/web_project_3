@@ -6,9 +6,18 @@
   grid-column: 2;
 }
 
+@media screen and (max-width: 767px){
+  .places__place-text{
+    margin: 0 auto;
+    max-width: 90%;
+    grid-row: 4;
+  }
+}
+
 @media screen and (max-width: 320px){
   .places__place-text{
+    margin: 0 auto;
+    max-width: 288px;
     grid-row: 4;
-    grid-column: 0;
   }
 }
