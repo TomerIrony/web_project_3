@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-height: 740px;
   background-image: url(../../../images/cover.jpg);
   background-size: cover;
   display: flex;
@@ -10,6 +9,7 @@
   align-items: center;
   color: white;
   text-decoration: none;
+  min-height: 740px;
 }
 
 .cover__link::after{

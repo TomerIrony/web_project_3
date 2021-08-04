@@ -10,10 +10,6 @@
   margin-right: 18px;
 }
 
-.header__link:focus{
-  text-decoration-line: underline;
-}
-
 .header__link:hover{
   opacity: .8;
 }
