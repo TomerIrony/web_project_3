@@ -10,18 +10,10 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .intro__title{
-    max-width: 720px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .intro__title{
-    max-width: 288px;
+    max-width: 90%;
     font-size: 32px;
     line-height: 35px;
   }
 }
-

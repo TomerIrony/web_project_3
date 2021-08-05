@@ -5,20 +5,15 @@
   position: relative;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .cover{
-    max-width: 1024px;
+    margin: 89px auto 0; 
   }
 }
 
-@media screen and (max-width: 768px){
-  .cover{
-    max-width: 768px;
-  }
-}
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
   .cover{
-    max-width: 320px;
+    margin: 64px auto 0; 
   }
 }
