@@ -11,7 +11,7 @@
   font-family: Inter;
 }
 
-@media screen and (max-width: 767פס) {
+@media screen and (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;
