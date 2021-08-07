@@ -25,5 +25,10 @@
     line-height: 24px;
     margin: 0;
     flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .footer__sites-link:last-of-type{
+    margin-bottom: 0;
   }
 }

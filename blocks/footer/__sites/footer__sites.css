@@ -1,7 +1,6 @@
 
 @media screen and (max-width: 767px){
   .footer__sites{
-    height: 136px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
